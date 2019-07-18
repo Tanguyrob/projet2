@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello second projet"
+    return "<h1>Hello second projet</h1>"
 
 @app.route("/next")
 def seconde_fct():
